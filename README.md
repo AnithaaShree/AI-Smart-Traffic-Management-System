@@ -1,25 +1,48 @@
-# AI-Based Smart Traffic Management System
+# 🚦 AI-Based Smart Traffic Management System
 
-An AI-powered Smart Traffic Management System developed using Python, OpenCV, YOLOv8, and Tkinter for real-time vehicle detection, adaptive traffic signal control, emergency vehicle priority, and traffic violation detection.
+An AI-powered Smart Traffic Management System developed using **Python, YOLOv8, OpenCV, and Tkinter**. The system performs real-time vehicle detection, adaptive traffic signal control, emergency vehicle prioritization, and traffic violation detection using computer vision.
 
-## 🚀 Features
+---
 
-- Vehicle Detection using YOLOv8
-- Vehicle Counting
-- Traffic Density Analysis
-- Adaptive Traffic Signal Timing
-- Emergency Vehicle Priority
-- Traffic Violation Detection
-- Real-Time Dashboard
+## ✨ Features
 
-## 🛠 Technologies Used
+- 🚗 Real-time vehicle detection using YOLOv8
+- 📊 Vehicle counting and traffic density analysis
+- 🚦 Adaptive traffic signal timing
+- 🚑 Emergency vehicle priority
+- 🚫 Traffic violation detection
+- 🖥️ Interactive Tkinter dashboard
+
+---
+
+## 🛠️ Technologies Used
 
 - Python
+- YOLOv8 (Ultralytics)
 - OpenCV
-- YOLOv8
 - Tkinter
 - NumPy
 - Pillow
+
+---
+
+## 📂 Project Structure
+
+```text
+AI-Smart-Traffic-Management-System/
+│── main.py
+│── gui.py
+│── vehicle_counter.py
+│── signal_logic.py
+│── ambulance_detection.py
+│── violation_detection.py
+│── config.py
+│── requirements.txt
+│── yolov8n.pt
+└── videos/
+```
+
+---
 
 ## ▶️ How to Run
 
@@ -28,20 +51,19 @@ pip install -r requirements.txt
 python main.py
 ```
 
-## 📂 Project Structure
+---
 
-```text
-smart_traffic/
-├── main.py
-├── vehicle_counter.py
-├── signal_logic.py
-├── ambulance_detection.py
-├── violation_detection.py
-├── gui.py
-├── config.py
-├── requirements.txt
-├── videos/
-└── yolov8n.pt
-```
+## 🚀 Future Enhancements
 
-> This project demonstrates the application of AI-powered computer vision for intelligent traffic management.
+- Multi-lane traffic management
+- Automatic Number Plate Recognition (ANPR)
+- Cloud-based traffic monitoring
+- Web dashboard for remote monitoring
+
+---
+
+## 👩‍💻 Author
+
+**Anithaa Shree**
+
+GitHub: https://github.com/AnithaaShree
